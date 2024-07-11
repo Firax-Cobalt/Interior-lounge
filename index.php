@@ -13,7 +13,9 @@
 
 <body>
   <header class="header">
-
+    <a class="header__logo" href="index.php">
+      <img src="<?php bloginfo('template_url'); ?>/assets/images/logo/logo.svg" alt="Дизайн общественных интерьеров" width="262" height="47" />
+    </a>
   </header>
   <main>
     <section class="intro">
