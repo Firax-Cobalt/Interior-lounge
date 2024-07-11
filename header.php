@@ -17,4 +17,6 @@
 
 </head>
 <body>
-  <header></header>
+  <header class="header">
+    
+  </header>
