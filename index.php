@@ -13,9 +13,35 @@
 
 <body>
   <header class="header">
-    <a class="header__logo" href="index.php">
-      <img src="<?php bloginfo('template_url'); ?>/assets/images/logo/logo.svg" alt="Дизайн общественных интерьеров" width="262" height="47" />
-    </a>
+    <div class="header__wrapper">
+      <a class="header__logo" href="index.php">
+        <img src="<?php bloginfo('template_url'); ?>/assets/images/logo/logo.svg" alt="Дизайн общественных интерьеров" width="262" height="47" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav__lsit">
+          <li class="main-nav__list-item main-nav__list-item_has-children">
+            Наши проекты
+            <ul class="sub-menu">
+              <li class="sub-menu__item">
+                <a class="sub-menu__link" href="#">Tomazzi Hall</a>
+              </li>
+              <li class="sub-menu__item">
+                <a class="sub-menu__link" href="#">Lounge Hall</a>
+              </li>
+              <li class="sub-menu__item">
+                <a class="sub-menu__link" href="#">Astra Hall</a>
+              </li>
+            </ul>
+          </li>
+          <li class="main-nav__list-item">
+            <a class="main-nav__list-link" href="#">Контакты</a>
+          </li>
+          <li class="main-nav__list-item">
+            <a class="main-nav__list-link" href="#">Оставить отзыв</a>
+          </li>
+        </ul>
+    </div>
+    </nav>
   </header>
   <main>
     <section class="intro">
