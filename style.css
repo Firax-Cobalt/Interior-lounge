@@ -353,3 +353,9 @@ body {
 .form-review__submit:active {
   background-color: rgb(104, 76, 5);
 }
+
+.form-review__submit-description {
+  font-size: 1.2rem;
+  color: rgb(0 0 0 / 0.7);
+  width: 225px;
+}
