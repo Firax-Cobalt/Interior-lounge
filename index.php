@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header wrapper">
     <a class="header__logo" href="index.php">
       <img src="<?php bloginfo('template_url'); ?>/assets/images/logo/logo.svg" alt="Дизайн общественных интерьеров" width="262" height="47" />
     </a>
@@ -43,8 +43,20 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <section class="intro"></section>
+  <main class="main-content">
+    <h1 class="main-content__title">Дизайн общественных интерьеров </h1>
+    <section class="intro wrapper">
+      <h2 class="intro__title">Кейс клубного дома Tomazzi Hall</h2>
+      <div class="intro__image-wrapper">
+        <img src="<?php bloginfo('template_url') ?>/assets/images/intro-image.jpg" alt="Клубный дом Tomazzi Hall" width="1110" height="400" />
+      </div>
+      <div class="intro__text-wrapper">
+        <p class="intro__text intro__text-primary">Создать объект, подобного которому в Санкт-Петербурге еще не было, — такую задачу поставил перед собой девелопер <b>Interior Lounge,</b> продумывая клубный дом <a href="#">Tomazzi Hall</a>. Над экстерьером комплекса работала команда одного из крупнейших архитектурных Бюро России — «Студия 11» разработал концепцию, а мы оформили интерьер 10 парадных и 3 лаунж-зон.</p>
+        <p class="intro__text">
+          Заказчик знал команду, следил за нашей деятельностью, поэтому никого больше не рассматривал — поручил дизайн парадных и лаунж-зон нам. Основными моментами, на которые мы оринтировались, стали:
+        </p>
+      </div>
+    </section>
     <section class="inspiration"></section>
   </main>
   <footer class="footer">

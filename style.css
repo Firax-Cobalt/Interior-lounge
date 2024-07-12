@@ -39,7 +39,6 @@ a {
 .wrapper {
   width: 1110px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 body {
@@ -53,10 +52,9 @@ body {
 }
 
 .header {
+  padding-block-start: 10px;
   display: flex;
   align-items: center;
-  width: 1110px;
-  margin: 0 auto;
   position: relative;
   background-color: #ffffff;
 }
@@ -130,7 +128,7 @@ body {
 }
 
 .main-nav__item_review .main-nav__link {
-  padding-block: 6px;
+  padding-block: 7px;
   padding-inline: 22px;
   border-block: 1px solid rgb(159, 115, 3);
   border-inline: 1px solid rgb(159, 115, 3);
@@ -144,4 +142,45 @@ body {
 
 .main-nav__item_review .main-nav__link:active {
   background-color: rgb(159 115 3 / 0.2);
+}
+
+.main-content {
+  padding-block-start: 84px;
+}
+
+.main-content__title {
+  width: 1110px;
+  margin: 0 auto 26px;
+  font-size: 4.8rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.intro__title {
+  font-size: 4rem;
+  font-weight: 500;
+  color: rgb(159 115 3);
+  margin-block-end: 50px;
+}
+
+.intro__image-wrapper {
+  display: block;
+  margin-block-end: 49px;
+}
+
+.intro__text-wrapper .intro__text:first-of-type {
+  margin-block-end: 1.5em;
+}
+
+.intro__text a {
+  color: currentColor;
+  text-decoration: underline;
+}
+
+.intro__text b {
+  font-weight: 700;
+}
+
+.intro__text-primary {
+  color: rgb(159 115 3);
 }
