@@ -82,11 +82,8 @@
     </section>
   </main>
   <footer class="footer">
-    <section class="comments">
-      <div class="wrapper">
-        <h2 class="comments__title">Оставить отзыв</h2>
-        <div class="comments-form">
-          <div class="wpcf7">
+    <section class="form-review">
+        <h2 class="form-review__title">Оставить отзыв</h2>
             <form class="wpcf7-form" action="">
               <p>
                 <span class="wpcf7-form-control-wrap">
@@ -108,9 +105,6 @@
                 </div>
               </div>
             </form>
-          </div>
-        </div>
-      </div>
     </section>
     <section class="reviews">
       <div class="wrapper">

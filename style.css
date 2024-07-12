@@ -227,6 +227,10 @@ body {
   display: inline-block;
 }
 
+.inspiration {
+  padding-block-end: 112px;
+}
+
 .inspiration__title {
   margin-block-end: 35px;
   font-weight: 500;
