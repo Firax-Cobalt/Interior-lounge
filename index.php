@@ -47,8 +47,8 @@
     <h1 class="main-content__title">Дизайн общественных интерьеров </h1>
     <section class="intro wrapper">
       <h2 class="intro__title">Кейс клубного дома Tomazzi Hall</h2>
-      <div class="intro__image-wrapper">
-        <img src="<?php bloginfo('template_url') ?>/assets/images/intro-image.jpg" alt="Клубный дом Tomazzi Hall" width="1110" height="400" />
+      <div class="intro__main-image-wrapper">
+        <img src="<?php bloginfo('template_url') ?>/assets/images/main-intro-image.jpg" alt="Клубный дом Tomazzi Hall" width="1110" height="400" />
       </div>
       <div class="intro__text-wrapper">
         <p class="intro__text intro__text-primary">Создать объект, подобного которому в Санкт-Петербурге еще не было, — такую задачу поставил перед собой девелопер <b>Interior Lounge,</b> продумывая клубный дом <a href="#">Tomazzi Hall</a>. Над экстерьером комплекса работала команда одного из крупнейших архитектурных Бюро России — «Студия 11» разработал концепцию, а мы оформили интерьер 10 парадных и 3 лаунж-зон.</p>
@@ -61,6 +61,10 @@
         <li class="intro__list-item">Необходимо было выдержать дорогой и одновременно элегантный стиль;</li>
         <li class="intro__list-item">Ключевой элемент дизайна любого общественного пространства — удобство для жителей.</li>
       </ul>
+      <div class="intro__images-wrapper">
+        <img src="<?php bloginfo('template_url'); ?>/assets/images/intro-image-1.jpg" alt="Большная лестница в отеле" width="540" height="350">
+        <img src="<?php bloginfo('template_url') ?>/assets/images/intro-image-2.jpg" alt="Лифт в отеле" width="540" height="350">
+      </div>
     </section>
     <section class="inspiration"></section>
   </main>

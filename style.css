@@ -163,7 +163,7 @@ body {
   margin-block-end: 50px;
 }
 
-.intro__image-wrapper {
+.intro__main-image-wrapper {
   display: block;
   margin-block-end: 49px;
 }
@@ -207,4 +207,14 @@ body {
   position: absolute;
   inset-block-start: 8px;
   inset-inline-start: 5px;
+}
+
+.intro__images-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.intro__images-wrapper img {
+  display: inline-block;
 }
