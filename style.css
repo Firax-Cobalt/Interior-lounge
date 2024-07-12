@@ -168,6 +168,10 @@ body {
   margin-block-end: 49px;
 }
 
+.intro__text-wrapper {
+  margin-block-end: 32px;
+}
+
 .intro__text-wrapper .intro__text:first-of-type {
   margin-block-end: 1.5em;
 }
@@ -183,4 +187,24 @@ body {
 
 .intro__text-primary {
   color: rgb(159 115 3);
+}
+
+.intro__list-item {
+  padding-inline-start: 27px;
+  position: relative;
+}
+
+.intro__list-item:not(:last-child) {
+  margin-block-end: 8px;
+}
+
+.intro__list-item::before {
+  content: "";
+  inline-size: 8px;
+  block-size: 8px;
+  transform: rotate(45deg);
+  background-color: rgba(245 213 129);
+  position: absolute;
+  inset-block-start: 8px;
+  inset-inline-start: 5px;
 }
