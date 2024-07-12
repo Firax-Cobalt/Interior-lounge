@@ -156,6 +156,10 @@ body {
   line-height: 1.2;
 }
 
+.intro {
+  padding-block-end: 89px;
+}
+
 .intro__title {
   font-size: 4rem;
   font-weight: 500;
@@ -189,6 +193,10 @@ body {
   color: rgb(159, 115, 3);
 }
 
+.intro__list {
+  margin-block-end: 55px;
+}
+
 .intro__list-item {
   padding-inline-start: 27px;
   position: relative;
@@ -220,6 +228,7 @@ body {
 }
 
 .inspiration__title {
+  margin-block-end: 35px;
   font-weight: 500;
   font-size: 3.2rem;
   line-height: 1.2;
