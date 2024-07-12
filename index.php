@@ -37,7 +37,7 @@
         <li class="main-nav__item">
           <a class="main-nav__link" href="#">Контакты</a>
         </li>
-        <li class="main-nav__item">
+        <li class="main-nav__item main-nav__item_review">
           <a class="main-nav__link" href="#">Оставить отзыв</a>
         </li>
       </ul>
