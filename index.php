@@ -8,39 +8,39 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
   <title>Interior lounge</title>
-  <?php wp_head() ?>
+  <?php
+  wp_head();
+  ?>
 </head>
 
 <body>
   <header class="header">
-    <div class="header__wrapper">
-      <a class="header__logo" href="index.php">
-        <img src="<?php bloginfo('template_url'); ?>/assets/images/logo/logo.svg" alt="Дизайн общественных интерьеров" width="262" height="47" />
-      </a>
-      <nav class="main-nav">
-        <ul class="main-nav__lsit">
-          <li class="main-nav__list-item main-nav__list-item_has-children">
-            Наши проекты
-            <ul class="sub-menu">
-              <li class="sub-menu__item">
-                <a class="sub-menu__link" href="#">Tomazzi Hall</a>
-              </li>
-              <li class="sub-menu__item">
-                <a class="sub-menu__link" href="#">Lounge Hall</a>
-              </li>
-              <li class="sub-menu__item">
-                <a class="sub-menu__link" href="#">Astra Hall</a>
-              </li>
-            </ul>
-          </li>
-          <li class="main-nav__list-item">
-            <a class="main-nav__list-link" href="#">Контакты</a>
-          </li>
-          <li class="main-nav__list-item">
-            <a class="main-nav__list-link" href="#">Оставить отзыв</a>
-          </li>
-        </ul>
-    </div>
+    <a class="header__logo" href="index.php">
+      <img src="<?php bloginfo('template_url'); ?>/assets/images/logo/logo.svg" alt="Дизайн общественных интерьеров" width="262" height="47" />
+    </a>
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__list-item main-nav__list-item_has-children">
+          Наши проекты
+          <ul class="sub-menu">
+            <li class="sub-menu__item">
+              <a class="sub-menu__link" href="#">Tomazzi Hall</a>
+            </li>
+            <li class="sub-menu__item">
+              <a class="sub-menu__link" href="#">Lounge Hall</a>
+            </li>
+            <li class="sub-menu__item">
+              <a class="sub-menu__link" href="#">Astra Hall</a>
+            </li>
+          </ul>
+        </li>
+        <li class="main-nav__list-item">
+          <a class="main-nav__link" href="#">Контакты</a>
+        </li>
+        <li class="main-nav__list-item">
+          <a class="main-nav__link" href="#">Оставить отзыв</a>
+        </li>
+      </ul>
     </nav>
   </header>
   <main>
@@ -53,22 +53,12 @@
       <div class="wrapper">
         <div class="wysiwyg-wrapper">
           <h1 class="greetings_title">
-            <?php
-            the_field('greetings_title');
-            ?>
+            Дизайн общественных интерьеров
           </h1>
           <h2>
             То же самое с заголовком второго уровня, посмотрим как будет
             смотреться текст на нескольких строках
           </h2>
-          <div class="greetings_wrapper-image">
-            <img src="<?php the_field('greetings_image') ?>" alt="Приветственное изображение" />
-          </div>
-          <p>
-            <?php
-            the_field('greetings_description');
-            ?>
-          </p>
           <p>
             Повторим параграф, чтобы посмотреть отступы между двумя
             параграфами подряд. Повторим параграф, чтобы посмотреть отступы
