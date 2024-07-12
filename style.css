@@ -49,9 +49,14 @@ body {
 
 .header {
   display: flex;
+  align-items: center;
   margin: 0 auto;
   background-color: #ffffff;
   width: 1110px;
+}
+
+.main-nav {
+  margin-left: auto;
 }
 
 .main-nav__list {
@@ -60,6 +65,52 @@ body {
   gap: 40px;
 }
 
+.main-nav__item {
+  position: relative;
+}
+
+.main-nav__item_has-children {
+  padding-right: 19px;
+}
+
+.main-nav__item_has-children::after {
+  content: "";
+  background: url("./assets/images/icon-sub-menu.svg") no-repeat;
+  background-position: center right;
+  position: absolute;
+  inset: 0;
+}
+
 .main-nav__link {
   font-size: 1.8rem;
+}
+
+.sub-menu {
+  padding-block: 24px 32px;
+  padding-inline: 16px;
+  inline-size: 200px;
+  min-block-size: 169px;
+  background-color: #ffffff;
+  position: absolute;
+  inset-block-start: 26px;
+  inset-inline-start: 0;
+  display: none;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0.18), 0 2px 4px 0 rgb(0 0 0 / 0.18);
+}
+
+.main-nav__item_has-children:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.sub-menu__link {
+  line-height: 1.2;
+}
+
+.main-nav__link:hover,
+.sub-menu__link:hover {
+  color: rgb(159, 115, 3);
 }

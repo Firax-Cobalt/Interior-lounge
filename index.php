@@ -20,7 +20,7 @@
     </a>
     <nav class="main-nav">
       <ul class="main-nav__list">
-        <li class="main-nav__list-item main-nav__list-item_has-children">
+        <li class="main-nav__item main-nav__item_has-children">
           Наши проекты
           <ul class="sub-menu">
             <li class="sub-menu__item">
@@ -34,10 +34,10 @@
             </li>
           </ul>
         </li>
-        <li class="main-nav__list-item">
+        <li class="main-nav__item">
           <a class="main-nav__link" href="#">Контакты</a>
         </li>
-        <li class="main-nav__list-item">
+        <li class="main-nav__item">
           <a class="main-nav__link" href="#">Оставить отзыв</a>
         </li>
       </ul>
