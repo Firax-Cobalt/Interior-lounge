@@ -82,31 +82,20 @@
     </section>
   </main>
   <footer class="footer">
-    <section class="form-review">
-        <h2 class="form-review__title">Оставить отзыв</h2>
-            <form class="wpcf7-form" action="">
-              <p>
-                <span class="wpcf7-form-control-wrap">
-                  <textarea class="wpcf7-textarea" name="" id="" cols="40" rows="10" placeholder="Расскажите, что вы думаете о проекте"></textarea>
-                </span>
-              </p>
-              <p>
-                <span class="wpcf7-form-control-wrap">
-                  <input class="wpcf7-text" type="text" size="40" placeholder="Ваше имя" />
-                </span>
-              </p>
-              <div class="comments-submit-area">
-                <p>
-                  <input class="wpcf7-submit" type="submit" value="Отправить" />
-                  <span class="ajax-loader"></span>
-                </p>
-                <div class="comments-text">
-                  Отзыв будет добавлен после проверки модератором
-                </div>
-              </div>
-            </form>
+    <section class="form-review wrapper">
+      <h2 class="form-review__title">Оставить отзыв</h2>
+      <form class="form-review form" action="">
+        <p>
+          <label class="visually-hidden" for="comments">Комментарий</label>
+          <textarea class="form__textarea" cols="40" rows="10" placeholder="Расскажите, что вы думаете о проекте" required></textarea>
+        </p>
+        <p>
+          <label class="visually-hidden" for="name">Введите имя</label>
+          <input class="form__field" type="text" name="name" placeholder="Ваше имя" required />
+        </p>
+      </form>
     </section>
-    <section class="reviews">
+    <section class="reviews wrapper">
       <div class="wrapper">
         <div class="reviews__wrapper">
           <div class="review">
