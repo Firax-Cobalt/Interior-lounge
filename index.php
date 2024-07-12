@@ -87,12 +87,16 @@
       <form class="form-review form" action="">
         <p>
           <label class="visually-hidden" for="comments">Комментарий</label>
-          <textarea class="form__textarea" cols="40" rows="10" placeholder="Расскажите, что вы думаете о проекте" required></textarea>
+          <textarea class="form__textarea" cols="40" rows="10" placeholder="Расскажите, что вы думаете о проекте" required id="comments"></textarea>
         </p>
         <p>
           <label class="visually-hidden" for="name">Введите имя</label>
-          <input class="form__field" type="text" name="name" placeholder="Ваше имя" required />
+          <input class="form__field" type="text" name="name" placeholder="Ваше имя" required id="name" />
         </p>
+        <div class="form-review__submit-wrapper">
+          <button class="form-review__submit">Отправить</button>
+          <p class="form-review__submit-description">Отзыв будет добавлен после проверки модератором</p>
+        </div>
       </form>
     </section>
     <section class="reviews wrapper">

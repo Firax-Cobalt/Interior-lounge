@@ -326,3 +326,30 @@ body {
 .form__field::placeholder {
   color: rgb(0 0 0 / 0.3);
 }
+
+.form-review__submit-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-review__submit {
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: rgb(159, 115, 3);
+  width: 285px;
+  min-height: 64px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  color: rgb(255, 255, 255);
+}
+
+.form-review__submit:hover {
+  background-color: rgb(133, 97, 3);
+}
+
+.form-review__submit:active {
+  background-color: rgb(104, 76, 5);
+}
