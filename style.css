@@ -107,7 +107,7 @@ body {
   inset-block-start: 26px;
   inset-inline-start: 0;
   display: none;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0.18), 0 2px 4px 0 rgb(0 0 0 / 0.18);
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, /0.18), 0 2px 4px 0 rgb(0, 0, 0, /0.18);
 }
 
 .main-nav__item_has-children:hover .sub-menu {
@@ -136,12 +136,12 @@ body {
 }
 
 .main-nav__item_review .main-nav__link:hover {
-  background-color: rgb(255 253 248);
-  color: rgb(0 0 0);
+  background-color: rgb(255, 253, 248);
+  color: rgb(0, 0, 0);
 }
 
 .main-nav__item_review .main-nav__link:active {
-  background-color: rgb(159 115 3 / 0.2);
+  background-color: rgb(159, 115, 3 / 0.2);
 }
 
 .main-content {
@@ -159,7 +159,7 @@ body {
 .intro__title {
   font-size: 4rem;
   font-weight: 500;
-  color: rgb(159 115 3);
+  color: rgb(159, 115, 3);
   margin-block-end: 50px;
 }
 
@@ -186,7 +186,7 @@ body {
 }
 
 .intro__text-primary {
-  color: rgb(159 115 3);
+  color: rgb(159, 115, 3);
 }
 
 .intro__list-item {
@@ -203,7 +203,7 @@ body {
   inline-size: 8px;
   block-size: 8px;
   transform: rotate(45deg);
-  background-color: rgba(245 213 129);
+  background-color: rgba(245, 213, 129);
   position: absolute;
   inset-block-start: 8px;
   inset-inline-start: 5px;
@@ -217,4 +217,21 @@ body {
 
 .intro__images-wrapper img {
   display: inline-block;
+}
+
+.inspiration__title {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 1.2;
+  color: rgb(159, 115, 3);
+}
+
+.inspiration__text-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.inspiration__text {
+  inline-size: 540px;
 }

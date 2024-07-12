@@ -66,7 +66,15 @@
         <img src="<?php bloginfo('template_url') ?>/assets/images/intro-image-2.jpg" alt="Лифт в отеле" width="540" height="350">
       </div>
     </section>
-    <section class="inspiration"></section>
+    <section class="inspiration wrapper">
+      <h2 class="inspiration__title">
+        Начало работы и источники вдохновения
+      </h2>
+      <div class="inspiration__text-wrapper">
+        <p class="inspiration__text">Над экстерьером комплекса работала команда одного из крупнейших архитектурных бюро России — «Студия 11», а мы оформили интерьер 10 парадных и 3 лаунж-зон. </p>
+        <p class="inspiration__text">Заказчик знал команду, следил за нашей деятельностью, поэтому никого больше не рассматривал — поручил дизайн парадных и лаунж-зон нам.</p>
+      </div>
+    </section>
   </main>
   <footer class="footer">
     <section class="comments">
