@@ -44,39 +44,41 @@
     </nav>
   </header>
   <main class="main-content">
-    <h1 class="main-content__title">Дизайн общественных интерьеров </h1>
+    <h1 class="main-content__title"><?php the_field('main-content__title'); ?></h1>
     <section class="intro wrapper">
-      <h2 class="intro__title">Кейс клубного дома Tomazzi Hall</h2>
+      <h2 class="intro__title"><?php the_field('intro__title'); ?></h2>
       <div class="intro__main-image-wrapper">
-        <img src="<?php bloginfo('template_url') ?>/assets/images/main-intro-image.jpg" alt="Клубный дом Tomazzi Hall" width="1110" height="400" />
+        <img src="<?php the_field('intro__main-image'); ?>" alt="Отель Tomazzi hall" />
       </div>
       <div class="intro__text-wrapper">
-        <p class="intro__text intro__text-primary">Создать объект, подобного которому в Санкт-Петербурге еще не было, — такую задачу поставил перед собой девелопер <b>Interior Lounge,</b> продумывая клубный дом <a href="#">Tomazzi Hall</a>. Над экстерьером комплекса работала команда одного из крупнейших архитектурных Бюро России — «Студия 11» разработал концепцию, а мы оформили интерьер 10 парадных и 3 лаунж-зон.</p>
+        <p class="intro__text intro__text-primary"><?php the_field('intro__text-primary') ?></p>
         <p class="intro__text">
-          Заказчик знал команду, следил за нашей деятельностью, поэтому никого больше не рассматривал — поручил дизайн парадных и лаунж-зон нам. Основными моментами, на которые мы оринтировались, стали:
+          <?php the_field('intro__text'); ?>
         </p>
       </div>
       <ul class="intro__list">
-        <li class="intro__list-item">Источники вдохновения планировалось искать в строгой геометрии, модерне и духе «ревущих двадцатых»;</li>
-        <li class="intro__list-item">Необходимо было выдержать дорогой и одновременно элегантный стиль;</li>
-        <li class="intro__list-item">Ключевой элемент дизайна любого общественного пространства — удобство для жителей.</li>
+        <li class="intro__list-item"><?php the_field('intro__item-1'); ?></li>
+        <li class="intro__list-item"><?php the_field('intro__item-2'); ?></li>
+        <li class="intro__list-item"><?php the_field('intro__item-3'); ?></li>
       </ul>
       <div class="intro__images-wrapper">
-        <img src="<?php bloginfo('template_url'); ?>/assets/images/intro-image-1.jpg" alt="Большная лестница в отеле" width="540" height="350">
-        <img src="<?php bloginfo('template_url') ?>/assets/images/intro-image-2.jpg" alt="Лифт в отеле" width="540" height="350">
+        <img src="<?php the_field('intro__additional-image-1'); ?>" alt="Большная лестница в отеле">
+        <img src="<?php the_field('intro__additional-image-2'); ?>" alt="Лифт в отеле">
       </div>
     </section>
     <section class="inspiration wrapper">
       <h2 class="inspiration__title">
-        Начало работы и источники вдохновения
+        <?php the_field('inspiration__title'); ?>
       </h2>
       <div class="inspiration__text-wrapper">
-        <p class="inspiration__text">Над экстерьером комплекса работала команда одного из крупнейших архитектурных бюро России — «Студия 11», а мы оформили интерьер 10 парадных и 3 лаунж-зон. </p>
-        <p class="inspiration__text">Заказчик знал команду, следил за нашей деятельностью, поэтому никого больше не рассматривал — поручил дизайн парадных и лаунж-зон нам.</p>
+        <p class="inspiration__text"><?php the_field('
+inspiraton__text-first'); ?></p>
+        <p class="inspiration__text"><?php the_field('
+inspiraton__text-second'); ?></p>
       </div>
       <div class="inspiration__blockquote-wrapper">
         <blockquote class="inspiration__blockquote">
-          «Нам хотелось поддержать внешнюю архитектурную концепцию, но внутри добавить что-то необычное. Сделать некое подобие матрешки, чтобы все время открывались новые смыслы и элементы».
+          <?php the_field('inspiration__blockquote'); ?>
         </blockquote>
       </div>
     </section>
