@@ -51,7 +51,9 @@
         <img src="<?php the_field('intro__main-image'); ?>" alt="Отель Tomazzi hall" />
       </div>
       <div class="intro__text-wrapper">
-        <p class="intro__text intro__text-primary"><?php the_field('intro__text-primary') ?></p>
+        <p class="intro__text">
+          <?php the_field('intro__text_accent'); ?>
+        </p>
         <p class="intro__text">
           <?php the_field('intro__text'); ?>
         </p>
