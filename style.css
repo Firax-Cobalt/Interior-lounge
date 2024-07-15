@@ -72,13 +72,18 @@ body {
   background-color: #ffffff;
 }
 
-/* .header::after {
+.header::after {
   content: "";
-  width: calc(100vw + 40px);
+  display: block;
+  width: calc(100vw - 17px);
   height: 1px;
-  background-color: rgb(245, 213, 129);
   position: absolute;
-} */
+  bottom: -10px;
+  left: 50%;
+  z-index: -1;
+  transform: translateX(-50%);
+  background-color: rgb(245, 213, 129);
+}
 
 .main-nav {
   margin-left: auto;
@@ -120,7 +125,7 @@ body {
   inset-block-start: 26px;
   inset-inline-start: 0;
   display: none;
-  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, /0.18), 0 2px 4px 0 rgb(0, 0, 0, /0.18);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0.18), 0 2px 4px 0 rgb(0 0 0 / 0.18);
 }
 
 .main-nav__item_has-children:hover .sub-menu {
