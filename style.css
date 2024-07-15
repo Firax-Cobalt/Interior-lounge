@@ -363,3 +363,38 @@ body {
   color: rgb(0 0 0 / 0.7);
   width: 225px;
 }
+
+.reviews {
+  padding-top: 56px;
+}
+
+.reviews__item {
+  display: grid;
+  grid-template-columns: 50px auto;
+  grid-template-rows: repeat(2, auto);
+  column-gap: 24px;
+  row-gap: 8px;
+}
+
+.reviews__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.review__image-wrapper {
+  grid-column: 1 / 2;
+  grid-row: 1 / -1;
+}
+
+.review__image {
+  border-radius: 50%;
+}
+
+.review__name {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.review__text {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
