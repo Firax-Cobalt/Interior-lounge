@@ -72,9 +72,9 @@
       </h2>
       <div class="inspiration__text-wrapper">
         <p class="inspiration__text"><?php the_field('
-inspiraton__text-first'); ?></p>
+         inspiraton__text-first'); ?></p>
         <p class="inspiration__text"><?php the_field('
-inspiraton__text-second'); ?></p>
+         inspiraton__text-second'); ?></p>
       </div>
       <div class="inspiration__blockquote-wrapper">
         <blockquote class="inspiration__blockquote">
@@ -85,7 +85,7 @@ inspiraton__text-second'); ?></p>
   </main>
   <footer class="footer">
     <section class="form-review wrapper">
-      <h2 class="form-review__title">Оставить отзыв</h2>
+      <h2 class="form-review__title"><?php the_field('form-review__title'); ?></h2>
       <form class="form-review form" action="">
         <p>
           <label class="visually-hidden" for="comments">Комментарий</label>
@@ -105,31 +105,24 @@ inspiraton__text-second'); ?></p>
       <ul class="reviews__list">
         <li class="reviews__item">
           <div class="review__image-wrapper">
-            <img class="review__image" src="<?php echo bloginfo('template_url'); ?>/assets/images/reviews/review-1.jpg" alt="Иван Грачев" width="50" height="50" />
+            <img class="review__image" src="<?php the_field('review__image_1'); ?>" />
           </div>
-          <p class="review__name">Иван Грачев</p>
-          <p class="review__text">Очень самобытный и необычный проект.</p>
+          <p class="review__name"><?php the_field('review__name_1'); ?></p>
+          <p class="review__text"><?php the_field('review__text_1'); ?></p>
         </li>
         <li class="reviews__item">
           <div class="review__image-wrapper">
-            <img class="review__image" src="<?php echo bloginfo('template_url'); ?>/assets/images/reviews/review-2.jpg" alt="Мария Рачинская" width="50" height="50" />
+            <img class="review__image" src="<?php the_field('review__image_2') ?>" />
           </div>
-          <p class="review__name">Мария Рачинская</p>
-          <p class="review__text">
-            Мне особенно понравилось решение лестничных клеток. Кружки
-            вообще очень стильные!
-          </p>
+          <p class="review__name"><?php the_field('review__name_2') ?></p>
+          <p class="review__text"><?php the_field('review__text_2') ?></p>
         </li>
         <li class="reviews__item">
           <div class="review__image-wrapper">
-            <img class="review__image" src="<?php echo bloginfo('template_url'); ?>/assets/images/reviews/review-3.jpg" alt="Светлана" width="50" height="50" />
+            <img class="review__image" src="<?php the_field('review__image_3') ?>" />
           </div>
-          <p class="review__name">Светлана</p>
-          <p class="review__text">
-            Очень нравится, что в городе развиваются такие проекты. Надеюсь,
-            такие проекты скоро будут не только в частных домах, но и в
-            кафе, музеях, театрах. Я бы сходила!
-          </p>
+          <p class="review__name"><?php the_field('review__name_3') ?></p>
+          <p class="review__text"><?php the_field('review__text_3') ?></p>
         </li>
       </ul>
     </section>
